@@ -76,7 +76,7 @@ impl NetworkMonitor {
     }
 
     async fn start_monitoring(&self) {
-        let interval = Duration::from_secs(10); // 1 hour interval
+        let interval = Duration::from_secs(60); // 1 minute interval
         let mut interval_timer = time::interval(interval);
 
         loop {
