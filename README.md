@@ -108,31 +108,15 @@ scp target/aarch64-unknown-linux-gnu/release/network-monitor michaelasiedu@raspb
 cargo build --release
 ```
 
-## Development Setup
-
-### VSCode Remote Development
-1. Install the Remote - SSH extension in VSCode
-2. Add your Raspberry Pi as a remote host:
-   ```
-   Host raspberry-pi
-       HostName 192.168.1.100
-       User pi
-   ```
-3. Connect to the Pi through VSCode's Remote Explorer
-4. Open the project directory and start developing
 
 
 
 ## Usage
 
-### Starting the Monitor
+### Starting the Network Monitor on Raspberry Pi
 ```bash
-# Run in foreground
 ./network-monitor
 
-# Run as a service
-sudo systemctl start network-monitor
-```
 
 ### Example Output
 ```
