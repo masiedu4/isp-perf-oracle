@@ -116,7 +116,7 @@ cargo build --release
 ### Starting the Network Monitor on Raspberry Pi
 ```bash
 ./network-monitor
-
+```
 
 ### Example Output
 ```
