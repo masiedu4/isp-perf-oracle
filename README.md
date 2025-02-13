@@ -37,6 +37,11 @@ Continuous                                                 Public Access
 Monitoring                                                   Interface
 ```
 
+### Why Raspberry Pi and Ethernet?
+
+Using a Raspberry Pi with a wired Ethernet connection provides some advantages over a laptop with Wi-Fi for network monitoring. The Raspberry Pi offers a dedicated hardware that can run 24/7 with consistent performance characteristics, while the wired connection eliminates variables like signal strength fluctuations and interference that could affect measurement accuracy. 
+
+
 ## Requirements
 
 ### Hardware
