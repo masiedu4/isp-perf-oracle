@@ -4,3 +4,9 @@
 [submodule "offchain-layer/contracts/lib/coprocessor-base-contract"]
 	path = offchain-layer/contracts/lib/coprocessor-base-contract
 	url = https://github.com/Mugen-Builders/coprocessor-base-contract
+[submodule "cartesi-coprocessor/contracts/lib/forge-std"]
+	path = cartesi-coprocessor/contracts/lib/forge-std
+	url = https://github.com/foundry-rs/forge-std
+[submodule "cartesi-coprocessor/contracts/lib/coprocessor-base-contract"]
+	path = cartesi-coprocessor/contracts/lib/coprocessor-base-contract
+	url = https://github.com/Mugen-Builders/coprocessor-base-contract
